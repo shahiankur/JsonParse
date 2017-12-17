@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		30A83F8D3B1D0B4E002A0F22 /* Pods_JsonParseUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8564228CA246652439F7207F /* Pods_JsonParseUITests.framework */; };
+		451C7EB2602986976C11BEC3 /* Pods_JsonParse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 214843F44BEF99C95B4022C2 /* Pods_JsonParse.framework */; };
+		5C87B641906142F79426CEA9 /* Pods_JsonParseTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6FEAA37FEA4DEA1009EBBA6 /* Pods_JsonParseTests.framework */; };
 		89B6CD441FE6290600A59755 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B6CD431FE6290600A59755 /* AppDelegate.swift */; };
 		89B6CD461FE6290600A59755 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B6CD451FE6290600A59755 /* ViewController.swift */; };
 		89B6CD491FE6290600A59755 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89B6CD471FE6290600A59755 /* Main.storyboard */; };
@@ -14,6 +17,7 @@
 		89B6CD4E1FE6290600A59755 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89B6CD4C1FE6290600A59755 /* LaunchScreen.storyboard */; };
 		89B6CD591FE6290600A59755 /* JsonParseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B6CD581FE6290600A59755 /* JsonParseTests.swift */; };
 		89B6CD641FE6290600A59755 /* JsonParseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B6CD631FE6290600A59755 /* JsonParseUITests.swift */; };
+		89B6CD741FE6399E00A59755 /* BaseClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B6CD731FE6399E00A59755 /* BaseClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		214843F44BEF99C95B4022C2 /* Pods_JsonParse.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JsonParse.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CE381B959A6E7A75390B217 /* Pods-JsonParse.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JsonParse.release.xcconfig"; path = "Pods/Target Support Files/Pods-JsonParse/Pods-JsonParse.release.xcconfig"; sourceTree = "<group>"; };
+		5ADD0B6E4546AA14DEC9F8F3 /* Pods-JsonParseTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JsonParseTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JsonParseTests/Pods-JsonParseTests.release.xcconfig"; sourceTree = "<group>"; };
+		78907B1222853F6BB9C02DCB /* Pods-JsonParseUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JsonParseUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JsonParseUITests/Pods-JsonParseUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8564228CA246652439F7207F /* Pods_JsonParseUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JsonParseUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		89B6CD401FE6290600A59755 /* JsonParse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JsonParse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89B6CD431FE6290600A59755 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		89B6CD451FE6290600A59755 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +56,11 @@
 		89B6CD5F1FE6290600A59755 /* JsonParseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JsonParseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		89B6CD631FE6290600A59755 /* JsonParseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonParseUITests.swift; sourceTree = "<group>"; };
 		89B6CD651FE6290600A59755 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89B6CD731FE6399E00A59755 /* BaseClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BaseClass.swift; path = ../../BaseClass.swift; sourceTree = "<group>"; };
+		A08C04E029E5D6D766372833 /* Pods-JsonParseUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JsonParseUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JsonParseUITests/Pods-JsonParseUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B65BDCC23BD74A5AB99CD13C /* Pods-JsonParseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JsonParseTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JsonParseTests/Pods-JsonParseTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DA7E15E856985A2AF7C82485 /* Pods-JsonParse.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JsonParse.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JsonParse/Pods-JsonParse.debug.xcconfig"; sourceTree = "<group>"; };
+		E6FEAA37FEA4DEA1009EBBA6 /* Pods_JsonParseTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JsonParseTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				451C7EB2602986976C11BEC3 /* Pods_JsonParse.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C87B641906142F79426CEA9 /* Pods_JsonParseTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30A83F8D3B1D0B4E002A0F22 /* Pods_JsonParseUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +98,8 @@
 				89B6CD571FE6290600A59755 /* JsonParseTests */,
 				89B6CD621FE6290600A59755 /* JsonParseUITests */,
 				89B6CD411FE6290600A59755 /* Products */,
+				97B6DE1CF74A1849C984B1E8 /* Pods */,
+				89EDF8FD41EF8FF6CC4A78EF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +116,7 @@
 		89B6CD421FE6290600A59755 /* JsonParse */ = {
 			isa = PBXGroup;
 			children = (
+				89B6CD731FE6399E00A59755 /* BaseClass.swift */,
 				89B6CD431FE6290600A59755 /* AppDelegate.swift */,
 				89B6CD451FE6290600A59755 /* ViewController.swift */,
 				89B6CD471FE6290600A59755 /* Main.storyboard */,
@@ -125,6 +145,29 @@
 			path = JsonParseUITests;
 			sourceTree = "<group>";
 		};
+		89EDF8FD41EF8FF6CC4A78EF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				214843F44BEF99C95B4022C2 /* Pods_JsonParse.framework */,
+				E6FEAA37FEA4DEA1009EBBA6 /* Pods_JsonParseTests.framework */,
+				8564228CA246652439F7207F /* Pods_JsonParseUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		97B6DE1CF74A1849C984B1E8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DA7E15E856985A2AF7C82485 /* Pods-JsonParse.debug.xcconfig */,
+				3CE381B959A6E7A75390B217 /* Pods-JsonParse.release.xcconfig */,
+				B65BDCC23BD74A5AB99CD13C /* Pods-JsonParseTests.debug.xcconfig */,
+				5ADD0B6E4546AA14DEC9F8F3 /* Pods-JsonParseTests.release.xcconfig */,
+				78907B1222853F6BB9C02DCB /* Pods-JsonParseUITests.debug.xcconfig */,
+				A08C04E029E5D6D766372833 /* Pods-JsonParseUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 89B6CD681FE6290600A59755 /* Build configuration list for PBXNativeTarget "JsonParse" */;
 			buildPhases = (
+				9556B34B88313035EF9CD638 /* [CP] Check Pods Manifest.lock */,
 				89B6CD3C1FE6290600A59755 /* Sources */,
 				89B6CD3D1FE6290600A59755 /* Frameworks */,
 				89B6CD3E1FE6290600A59755 /* Resources */,
+				3C6919912ECCBFBFA6E366E3 /* [CP] Embed Pods Frameworks */,
+				DDA7B00C40A84D35AC8BDDF2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +195,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 89B6CD6B1FE6290600A59755 /* Build configuration list for PBXNativeTarget "JsonParseTests" */;
 			buildPhases = (
+				F33A568DA104C06F7DEEF4ED /* [CP] Check Pods Manifest.lock */,
 				89B6CD501FE6290600A59755 /* Sources */,
 				89B6CD511FE6290600A59755 /* Frameworks */,
 				89B6CD521FE6290600A59755 /* Resources */,
+				6DC6F24B5261C4E9A82DF1B3 /* [CP] Embed Pods Frameworks */,
+				771494A1A1FD53D869308D5A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +216,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 89B6CD6E1FE6290600A59755 /* Build configuration list for PBXNativeTarget "JsonParseUITests" */;
 			buildPhases = (
+				12E8F2886C4D7E465BA36BD5 /* [CP] Check Pods Manifest.lock */,
 				89B6CD5B1FE6290600A59755 /* Sources */,
 				89B6CD5C1FE6290600A59755 /* Frameworks */,
 				89B6CD5D1FE6290600A59755 /* Resources */,
+				AC4E0571414A486E0F31D9FE /* [CP] Embed Pods Frameworks */,
+				D13EA3EC83F979759A6713B0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -257,12 +309,167 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		12E8F2886C4D7E465BA36BD5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JsonParseUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3C6919912ECCBFBFA6E366E3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-JsonParse/Pods-JsonParse-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JsonParse/Pods-JsonParse-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6DC6F24B5261C4E9A82DF1B3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JsonParseTests/Pods-JsonParseTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		771494A1A1FD53D869308D5A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JsonParseTests/Pods-JsonParseTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9556B34B88313035EF9CD638 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JsonParse-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC4E0571414A486E0F31D9FE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JsonParseUITests/Pods-JsonParseUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D13EA3EC83F979759A6713B0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JsonParseUITests/Pods-JsonParseUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DDA7B00C40A84D35AC8BDDF2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JsonParse/Pods-JsonParse-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F33A568DA104C06F7DEEF4ED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JsonParseTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		89B6CD3C1FE6290600A59755 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				89B6CD461FE6290600A59755 /* ViewController.swift in Sources */,
+				89B6CD741FE6399E00A59755 /* BaseClass.swift in Sources */,
 				89B6CD441FE6290600A59755 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -413,6 +620,7 @@
 		};
 		89B6CD691FE6290600A59755 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA7E15E856985A2AF7C82485 /* Pods-JsonParse.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 2E39R5HUP8;
@@ -426,6 +634,7 @@
 		};
 		89B6CD6A1FE6290600A59755 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CE381B959A6E7A75390B217 /* Pods-JsonParse.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 2E39R5HUP8;
@@ -439,6 +648,7 @@
 		};
 		89B6CD6C1FE6290600A59755 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B65BDCC23BD74A5AB99CD13C /* Pods-JsonParseTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -454,6 +664,7 @@
 		};
 		89B6CD6D1FE6290600A59755 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5ADD0B6E4546AA14DEC9F8F3 /* Pods-JsonParseTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -469,6 +680,7 @@
 		};
 		89B6CD6F1FE6290600A59755 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78907B1222853F6BB9C02DCB /* Pods-JsonParseUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 2E39R5HUP8;
@@ -483,6 +695,7 @@
 		};
 		89B6CD701FE6290600A59755 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A08C04E029E5D6D766372833 /* Pods-JsonParseUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 2E39R5HUP8;
@@ -514,6 +727,7 @@
 				89B6CD6A1FE6290600A59755 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		89B6CD6B1FE6290600A59755 /* Build configuration list for PBXNativeTarget "JsonParseTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +736,7 @@
 				89B6CD6D1FE6290600A59755 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		89B6CD6E1FE6290600A59755 /* Build configuration list for PBXNativeTarget "JsonParseUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +745,7 @@
 				89B6CD701FE6290600A59755 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
